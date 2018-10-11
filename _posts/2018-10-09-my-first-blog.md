@@ -2,7 +2,7 @@
 layout:     post
 title:      个人博客站点的成功建立
 category: blog
-description: 博客站点的建立、以及自己为什么要写博客？
+description: 博客站点的建立、为什么要写博客？
 ---
 ## 博客站点建立的心路历程
 
