@@ -40,7 +40,7 @@ description: 转载地址：http://www.wangjiuling.com/posts/uncategorized/2018-
 也就是说，已经无法通过读取移动硬盘的方式来播放电影。
 ![appletv4k06](images/blog/appletv4k06.jpg)
 * 底部圆盘有多个看开孔以供散热，做工很感觉很不错，实际使用中 Apple TV 4K 的发热量也不大，散热方面基本上还是有保证的。
-![appletv4k07](images/blog/app;etv4k07.jpg)
+![appletv4k07](images/blog/appletv4k07.jpg)
 * 遥控器方面就更加简单了，除了 Menu、TV、播放和暂停、语音以及音量键外，没有其他按钮，更多的是通过 Menu 以及 Home 上方的触控板滑动和手势操作来控制，
 在遥控器方面可以说有相当大的突破和创新;
 ![appletv4k08](images/blog/appletv4k08.jpg)
@@ -54,7 +54,7 @@ description: 转载地址：http://www.wangjiuling.com/posts/uncategorized/2018-
 * 感觉没啥不对劲是吧？仔细一看没有appstroe 啊
 * 首次开机适配
 * 放好电视，接上HDMI，接通电源，ATV会自动启动，看到logo的时候就静静的等待就好了，实在觉得无聊可以看会手机；
-![appletv4k09](images/blog/appletv09.jpg)
+![appletv4k09](images/blog/appletv4k09.jpg)
 * 开机选择地区，你开心就好啥香港，澳门，新加坡都可以区别是什么？输入法法咯~你要有拼音新加坡最好，你要会注音仓颉输入法你选择台
 湾香港小胖也不会拦着你！
 ![appletv4k10](images/blog/appletv4k10.jpg)
@@ -68,7 +68,7 @@ description: 转载地址：http://www.wangjiuling.com/posts/uncategorized/2018-
 * 接下来在设置里更改下格式：这点小胖再次吐槽，ATV竟然不会自己选择最优配置，支持4k hdr的兄弟们选择4k hdr 60hz的选项就好了
 ![appletv4k18](images/blog/appletv4k18.jpg)
 * 色度如果支持的话选择4：2：2是最完美的，如果不支持是HDMI线材不行，乖乖用小胖刚才推荐的吧~哈哈 
-![appletv4k19](images/blog/appletv4k19.jpe)
+![appletv4k19](images/blog/appletv4k19.jpg)
 * 番外篇：对于音质有要求的老铁可以这样玩~外接几个蓝牙音响组建5.1声道 
 ![appletv4k20](images/blog/appletv4k20.jpg)
 * 到目前为止，ATV就已经设置完毕了。。。路人甲：小胖我干你丫的，这尼玛就完了？内容！内容！内容！我不是买来装逼的！
