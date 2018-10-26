@@ -31,7 +31,6 @@ description: 转载地址：http://www.wangjiuling.com/posts/uncategorized/2018-
 * 小胖历经TV3，TV4之后，义无反顾的选择了Apple TV 4K，其实是4给我带来的是创新，4K的话紧紧是为了4K！！！哈哈！（很多网友问是买破解版，还是官配，
 小胖建议是买个官配，跟着小胖走就是破解版了）
 ![appletv4k01](images/blog/appletv4k01.jpeg)
-![appletv4k01](images/blog/appletv4k01.jpeg)
 ![appletv4k02](images/blog/appletv4k02.jpeg)
 * 就产品本身，苹果一如既往的简约风格，标配就是主机、遥控器、电源线、USB数据线以及说明书，小胖其实想吐槽下HDMI你送个会死？但其实是想太多了~ 哈哈
 （注：各版本除了插座有区别以外并无其他区别）
@@ -124,7 +123,6 @@ ATV所在的网络你用一些设备和硬件模拟这一环境，那么小胖�
 
 三、电视类APP（OBOX类）
 
-
 ![obox](images/blog/obox.jpg)
 这类APP本质是播放器，承载播放列表已达到播放电视的目的，具有代表性的OBOX、iPlayTV、Stream Player等，
 这类APP都是作为播放器，需要添加播放列表承载，小胖利用闲暇时光有维护，大家可以进群获取。附一篇小胖的详细指南大家可以去看看:
@@ -136,8 +134,10 @@ ATV所在的网络你用一些设备和硬件模拟这一环境，那么小胖�
 详情个了解蔚蓝触点官方论坛、及懒猫开发者主页
 ATV交流QQ群号：611420566
 （写到这里大概的框架出来了，小胖后面慢慢填吧~）
-my blog addrss:[zhongjiazhai](http://zhongjiazhai.github.io)
 
+my blog addrss:[zhongjiazhai](http://zhongjiazhai.github.io)
+本博客转载于：[http://www.wangjiuling.com/posts/uncategorized/2018-08-15-4K%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html]
+如有问题请联系我删除。
 
 
 
