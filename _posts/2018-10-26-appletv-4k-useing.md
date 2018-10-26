@@ -2,7 +2,7 @@
 layout:     post
 title:      Apple Tv 4K 完整使用说明（转载）
 category: blog
-description: 转载地址：http://www.wangjiuling.com/posts/uncategorized/2018-08-15-4K%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html
+description: 在国内你一样可以拥有不一样的体验。。。。。。
 ---
 
 
