@@ -136,6 +136,7 @@ ATV所在的网络你用一些设备和硬件模拟这一环境，那么小胖�
 详情个了解蔚蓝触点官方论坛、及懒猫开发者主页
 ATV交流QQ群号：611420566
 （写到这里大概的框架出来了，小胖后面慢慢填吧~）
+my blog addrss:[zhongjiazhai](http://zhongjiazhai.github.io)
 
 
 
