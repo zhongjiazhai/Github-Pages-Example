@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      我的生活
+title:      工作与生活
 category: blog
 description: 2018年我女儿来到我的身边
 ---
