@@ -27,5 +27,7 @@ description: 2018年我女儿来到我的身边
            >       初秋
              入秋重阳正佳节，世间万物皆有变；
              吾女初生多转折，望此一生健长安。
+             
+   <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
           
  
