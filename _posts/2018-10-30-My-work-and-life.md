@@ -6,7 +6,7 @@ description: 2018年我女儿来到我的身边
 ---
 
 
-![zhaizhongjia](images/blog/zhaizhongjia.jpg)
+![zhaizhongjia](images/blog/2018-10-30/zhaizhongjia.jpg)
 
   翟忠佳，2014年7月份毕业于内蒙古科技大学信息工程学院自动化专业，专业课程比较全面，因属于理工冶金类院校，专业倾向于自动化控制方面。在校期间学习过C++，C#等编成语言，在此期间也完成过小的案例内容，大学课程还主修过自动化控制原理，电机及其控制理论等诸多复杂的理科内容。
 
