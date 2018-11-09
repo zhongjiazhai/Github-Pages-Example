@@ -38,7 +38,7 @@ reboot
 
 3.将以前的用户设为管理员
 
-![reboot](images/blog/reboot.png)
+  ![reboot](images/blog/reboot.png)
 
 
 打开系统偏好设置–>用户与群组，勾选之前的普通用户，勾选上“允许用户管理这台电脑” 
