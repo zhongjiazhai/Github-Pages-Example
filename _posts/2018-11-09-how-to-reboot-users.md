@@ -20,10 +20,11 @@ description: 几行代码解除你的困惑，而不是愚蠢的重装系统，�
 
 开机按住cmd+s，注意是长按，不是和windows一样点按。
 在＃root>下输入以下4条命令（如果看到bash-3.2#是一样的）： 
-fsck -y 
-mount -uaw / 
-rm /var/db/.AppleSetupDone 
-reboot
+
+       fsck -y 
+       mount -uaw / 
+       rm /var/db/.AppleSetupDone 
+       reboot
 
 第1条命令，对文件系统检查修复，输入后会给出一些提示命令，需要等几秒才能完成； 
 第2条命令，是挂载分区，执行后没有任何提示，并不是命令没执行或执行错误； 
