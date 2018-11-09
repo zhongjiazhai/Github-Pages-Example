@@ -4,6 +4,15 @@ title:     工作与生活
 category: blog
 description: 2018年我女儿来到我的身边
 ---
+
+   联系方式
+* My blog address :[zhongjiazhai](http://zhongjiazhai.github.io)
+* Email address: zhaizhongjia2010@163.com
+* Weibo: ZhongJia_Zhai
+
+**本博客所有文章采用的授权方式为 自由转载-非商用-非衍生-保持署名 
+**转载请务必注明出处，谢谢。
+
    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 
 ![zhaizhongjia](images/blog/2018-10-30/zhaizhongjia.jpg)
