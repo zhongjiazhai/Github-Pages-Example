@@ -6,7 +6,7 @@ description: 几行代码解除你的困惑，而不是愚蠢的重装系统，�
 ---
    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
     
-   [2018111](images/blog/20181111.png)
+   ![2018111](images/blog/20181111.png)
    
    系统管理员：顾名思义就是管理你电脑软件安装、软件删除、文件删除的一个系统用户，对应的就是访客，访客的权限只有访问浏览的权限，而没有删除及修改电脑文件的权限。所以，如果你Macos系统失去了管理员权限，那么就相当于你已经失去了对笔记本的绝对控制权限，无法删除软件，同样你也无法安装软件。有时候在我们日常操作中会忘记系统管理员账号密码，也有时候想修改系统管理员账号的名称而造成失去管理员账号了。
    
@@ -37,7 +37,10 @@ reboot
 这个可以随意配置，反正这个用户后面不一定会保留。
 
 3.将以前的用户设为管理员
-[reboot](images/blog/reboot.png)
+
+![reboot](images/blog/reboot.png)
+
+
 打开系统偏好设置–>用户与群组，勾选之前的普通用户，勾选上“允许用户管理这台电脑” 
 这里写图片描述 
 以前的用户就成管理员了，重启进入以前的账户，把刚刚新建的用户删除了就好了（为了安全，可以把要删除的账户改为普通用户，再次重启生效）
