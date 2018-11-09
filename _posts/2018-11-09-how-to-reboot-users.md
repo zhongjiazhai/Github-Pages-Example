@@ -2,7 +2,7 @@
 layout:     post
 title:      Macos找回系统管理员账号
 category: blog
-description: 几行代码解除你的困惑，而不是愚蠢的重装系统。
+description: 几行代码解除你的困惑，而不是愚蠢的重装系统，代码改变世界，改变生活。
 ---
    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
    
