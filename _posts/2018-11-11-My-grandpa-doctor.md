@@ -30,7 +30,7 @@ description: 爷爷今年90岁，一生从事临床治疗，主要医学领域�
    ![page_3](images/blog/page_3.png)  
    ![page_4](images/blog/page_4.png)  
    ![page_5](images/blog/page_5.png)  
-   ![page_6](images/blog/page_6.png）   
+   ![page_6](images/blog/page_6.png)   
    ![page_7](images/blog/page_7.png)   
    ![page_8](images/blog/page_8.png)
    
