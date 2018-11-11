@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      医者随心记（伊戈里（笔名著））
+title:      医者随心记（伊戈里（笔名）著）
 category: blog
 description: 爷爷今年90岁，一生从事临床治疗，主要医学领域为心脑血管治疗，病症粥样动脉硬化的命名者，曾多次到英国讲学，被授予教授称号。
 ---
@@ -28,4 +28,4 @@ description: 爷爷今年90岁，一生从事临床治疗，主要医学领域�
    src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' 
    type='text/javascript'%3E%3C/script%3E"));</script>
    
-   ![doctor](inages/blog/doctor.png)
+   ![doctor](/blog/doctor.png)
