@@ -28,4 +28,4 @@ description: 爷爷今年90岁，一生从事临床治疗，主要医学领域�
    src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' 
    type='text/javascript'%3E%3C/script%3E"));</script>
    
-   ![doctor](images/blog/doctor.png)
+   ![Doctor_Note](images/blog/Doctor_Note.pdf)
