@@ -1,6 +1,6 @@
 permalink: /:title
 
-title: ZhongJiaZhai.com
+title: zhongjiazhai.com
 url: http://zhongjiazhai.github.io
 feed: /atom.xml
-author_info: <a href="http://zhongjiazhai.github.io/">ZhongJiaZhai</a>
+author_info: <a href="http://zhongjiazhai.github.io/">zhongjiazhai</a>
