@@ -29,6 +29,7 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
    
   ## 要求：统计所有广告id在所有页面出现的次数
   * 首先拆分广告ID
+  
               Select pageid,adid  from pageAds lateral view explode(adid_list) adtable as adid;
 
 执行后结果如下：
@@ -60,9 +61,10 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
       b、提取商编长度小于等于15位且终端号长度小于等于8位数据
    * 第一步，先把字段rchnt_no_trm一行数据通过lateral view 函数分割成多行数据
    
-       select mrch_nt_no_trm_split
-       from pdmstg.tbl_mms_shop 
-       lateral view explode(split(mrchnt_no_trm,',')) mrchnt_no_trm as mrchnt_no_trm_split;
+            select 
+                  mrch_nt_no_trm_split
+            from pdmstg.tbl_mms_shop 
+            lateral view explode(split(mrchnt_no_trm,',')) mrchnt_no_trm as mrchnt_no_trm_split;
   * 介绍一下split 函数
       split 函数 字符串分割函数，这个函数相对比较简单，
       基本使用方法： split('a,b,c,d,d',',')
@@ -81,8 +83,8 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
              Select  
                    Split(mrch_nt_no_trm_split,’\\\|’)[0]  as crd_acr_id –商编号
                   ,Split(mrch_nt_no_trm_split,’\\\|’)[1]  as crd_acr_tml_txt –终端号
-           From PDMSTG.TBL_MMS_SHOP lateral view explode(split(mrchnt_no_trm,’,’))
-           mrchnt_no_trm as mrchnt_no_trm_split
+             From PDMSTG.TBL_MMS_SHOP lateral view explode(split(mrchnt_no_trm,’,’))
+             mrchnt_no_trm as mrchnt_no_trm_split
            
            
   * 第三步骤 利用substr函数截取字符串长度
