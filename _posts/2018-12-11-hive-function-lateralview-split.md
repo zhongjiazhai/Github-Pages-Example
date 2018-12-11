@@ -21,6 +21,8 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
 ### 二、举例说明
 
   假如一张表PageAds,它有两列数据，第一列数据是pageid ，第二列是adid_list，即用逗号分隔的广告ID集合
+  
+  
             Pageid string 	Arrag<int> adid_list
             “front_page”	  [1,2,3]
             “contact_page”	[3,4,5]
@@ -66,9 +68,13 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
       基本使用方法： split('a,b,c,d,d',',')
       得到的结果为：
       ["a","b","c","d","d"]
+      
       如果要截取字符串中的某个值
+      
       需要使用split('a,b,c,d,d',',')[0]
+      
       得到的结果为：a
+      
   * 介绍完split函数，我们接着介绍项目实例，第二步骤，利用split函数截取商编号和终端编号
   
   
