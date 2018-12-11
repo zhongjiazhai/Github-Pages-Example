@@ -78,7 +78,8 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
   * 介绍完split函数，我们接着介绍项目实例，第二步骤，利用split函数截取商编号和终端编号
   
   
-             Select  split(mrch_nt_no_trm_split,’\\\|’)[0]  as crd_acr_id –商编号
+             Select  
+                   Split(mrch_nt_no_trm_split,’\\\|’)[0]  as crd_acr_id –商编号
                   ,Split(mrch_nt_no_trm_split,’\\\|’)[1]  as crd_acr_tml_txt –终端号
            From PDMSTG.TBL_MMS_SHOP lateral view explode(split(mrchnt_no_trm,’,’))
            mrchnt_no_trm as mrchnt_no_trm_split
@@ -90,7 +91,8 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
                 Substr(crd_acr_id,1,15)
                ,Substr(crd_acr_tml_txt,1,8)
           From (
-                Select  split(mrch_nt_no_trm_split,’\\\|’)[0]  as crd_acr_id –商编号
+                Select  
+                        Split(mrch_nt_no_trm_split,’\\\|’)[0]  as crd_acr_id –商编号
                        ,Split(mrch_nt_no_trm_split,’\\\|’)[1]  as crd_acr_tml_txt –终端号
                  From PDMSTG.TBL_MMS_SHOP lateral view explode(split(mrchnt_no_trm,’,’))
                  mrchnt_no_trm as mrchnt_no_trm_split）
