@@ -46,17 +46,19 @@ Lateral view 再把结果组合，产生一个支持别名表的虚拟表。
              
              Select adid,count(1) from pageAds lateral view explode(adid_list) adtable as adid Group by adid;
      执行结果如下
+     
            Int adid 	Count(1)
                    1	1
                    2	1
                    3	2
                    4	1
                    5	1
+                   
  ## 项目实际案例实际操作
+ 
    * 背景介绍 现有目标表为：TBL_MMS_SHOP，从目标表中字段名mrchnt_no_trm 提取商编和终端号；
       
       如下提取规则：
-      
       a、“商编号1|终端号1，商编号2|终端号2………”
       b、提取商编长度小于等于15位且终端号长度小于等于8位数据
    * 第一步，先把字段rchnt_no_trm一行数据通过lateral view 函数分割成多行数据
