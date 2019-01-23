@@ -46,8 +46,10 @@ description: 集群搭建教程
 
 ## 集群启动
 sbin/start-all.sh
+
 ## 历史执行查询服务启动
 sbin/mr-jobhistory-daemon.sh start historyserver
+
 ## 启动 hive2 服务
 nohup hive --service metastore >/dev/null 2>&1 &      ## 必须先启动hive元数据存储服务
 
@@ -81,18 +83,28 @@ hadoop/hadoop
 ### 下面说一下集群启动中遇到的问题：
 
 * 在启动hadoop过程中，jps 发现namenode 没有启动，通过日志查看 tail -f hadoop-hadoop-namenode-bigdata111.log，发现是in_use.lock文件权限问题？
+
+
 做了如下的操作：
+
 	1. 修改日志文件权限：chown -R hadoop:hadoop /usr/local/bigdata/hadoop/logs
+	
 	2. 修改文件所在文件夹权限 chown -R hadoop:hadoop/usr/local/bigdata/hadoop/data/dfs/name
-  3.重新启动，问题解决了。
+	
+        3. 重新启动，问题解决了。
+	
+	
 ### Linux 常用命令查看文件路径
+
  hdfs dfs -ls /
  rm -rf* ##删除当前文件夹下所有内容
  rm -rf current/ ##删除current 文件夹下所有内容
  hdfs namenode -format namenode 节点格式化
  ls -ltr 
  mv 旧的文件名 新的文件名
+ 
  ### hive 表中加载数据
+ 
  load data [local] inpath 'filepath' [overwrite] into table tablename[partition(partcol1=val1,partcol2=val2)]
  在load 表的过程中，表的stored 格式必须是textfile,否则出现错误；
 
