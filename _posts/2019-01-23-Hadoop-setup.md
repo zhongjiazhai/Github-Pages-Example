@@ -237,6 +237,8 @@ cd /data/hadoop-2.7.1/etc/hadoop
 
 
  
+ 
+ 
 ### 运行hadoop
 
 首先要格式化：
@@ -292,9 +294,9 @@ org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.protocol.Dis
 
 解决：
 
-1，删除dfs.namenode.name.dir和dfs.datanode.data.dir 目录下的所有文件
+1,删除dfs.namenode.name.dir和dfs.datanode.data.dir 目录下的所有文件
 
-2，修改hosts
+2,修改hosts
 
  cat /etc/hosts
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
@@ -307,6 +309,8 @@ org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.protocol.Dis
 4,启动
 
 重新启动
+
+
 
 
 ## 集群启动
