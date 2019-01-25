@@ -41,6 +41,7 @@ description: 集群搭建教程
  ![ifcfg-enp0s3](images/blog/2019-01-23/ifcfg-enp0s3.jpg)
  
  ## Hadoop的安装与配置
+ 
  ### 创建文件目录
  
 为了便于管理，给redHat1的hdfs的NameNode、DataNode及临时文件，在用户目录下创建目录：
@@ -100,6 +101,7 @@ cd /data/hadoop-2.7.1/etc/hadoop
 
 ### 修改core-site.xml
 
+
 <configuration>
  <property>
    <name>hadoop.tmp.dir</name>
@@ -126,7 +128,9 @@ cd /data/hadoop-2.7.1/etc/hadoop
 	
 注意：hadoop.tmp.dir的value填写对应前面创建的目录
 
+
 ## 修改 hdfs-site.xml
+
 
 <?xml version="1.0" encoding="UTF-8"?>
  <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
@@ -178,7 +182,10 @@ cd /data/hadoop-2.7.1/etc/hadoop
 
 注意：dfs.namenode.name.dir和dfs.datanode.data.dir的value填写对应前面创建的目录
 
+
+
 ### 修改vim mapred-site.xml
+
 
 <?xml version="1.0"?>
  <!--
@@ -243,24 +250,30 @@ sh ./start-all.sh
 
 查看集群状态：
 
+
 http://192.168.121.111:8088/cluster/scheduler
+
 
 ![jps](images/blog/2019-01-23/jps.png)
 
 ### 测试yarn 
 
+
 ![yarn](images/blog/2019-01-23/yarn.png)
 
 ### 测试hdfs
+
 http://192.168.121.111:50070/dfshealth.html#tab-overview
 
 ![hdfs](images/blog/2019-01-23/hdfs.png)
 
 /data/hadoop-2.7.1/bin/hdfs dfsadmin -report
 
+
 ### 配置运行Hadoop中遇见的问题
 
  * JAVA_HOME未设置？
+ 
  启动的时候报:
  
  ![java](images/blog/2019-01-23/java.png)
@@ -269,8 +282,7 @@ http://192.168.121.111:50070/dfshealth.html#tab-overview
  
  ![java_home](images/blog/2019-01-23/java_home.png)
  
- * 
- FATAL org.apache.hadoop.hdfs.server.datanode.DataNode: Initialization failed for block pool Block pool BP-336454126-127.0.0.1-1419216478581 (storage id DS-445205871-127.0.0.1-50010-1419216613930) service to /192.168.149.128:9000
+ *  FATAL org.apache.hadoop.hdfs.server.datanode.DataNode: Initialization failed for block pool Block pool BP-336454126-127.0.0.1-1419216478581 (storage id DS-445205871-127.0.0.1-50010-1419216613930) service to /192.168.149.128:9000
 org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.protocol.DisallowedDatanodeException): Datanode denied communication with namenode: DatanodeRegistration(0.0.0.0, storageID=DS-445205871-127.0.0.1-50010-1419216613930, infoPort=50075, ipcPort=50020, storageInfo=lv=-47;cid=CID-41993190-ade1-486c-8fe1-395c1d6f5739;nsid=1679060915;c=0)
 
 
