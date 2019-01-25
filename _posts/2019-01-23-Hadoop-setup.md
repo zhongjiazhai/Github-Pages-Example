@@ -134,52 +134,52 @@ cd /data/hadoop-2.7.1/etc/hadoop
 
 
          
-<?xml version="1.0" encoding="UTF-8"?>
- <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
- <!--
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
- 
-     http://www.apache.org/licenses/LICENSE-2.0
- 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License. See accompanying LICENSE file.
- -->
- 
- <!-- Put site-specific property overrides in this file. -->
- 
-<configuration>
- <property>
-   <name>dfs.replication</name>
-   <value>2</value>
- </property>
- <property>
-   <name>dfs.namenode.name.dir</name>
-   <value>file:/data/hdfs/name</value>
-   <final>true</final>
- </property>
- <property>
-   <name>dfs.datanode.data.dir</name>
-   <value>file:/data/hdfs/data</value>
-   <final>true</final>
- </property>
- <property>
-   <name>dfs.namenode.secondary.http-address</name>
-   <value>bigdata111:9001</value>
- </property>
- <property>
-   <name>dfs.webhdfs.enabled</name>
-   <value>true</value>
- </property>
- <property>
-   <name>dfs.permissions</name>
-   <value>false</value>
- </property>
-</configuration>
+    <?xml version="1.0" encoding="UTF-8"?>
+     <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+     <!--
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+     
+         http://www.apache.org/licenses/LICENSE-2.0
+     
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License. See accompanying LICENSE file.
+     -->
+     
+     <!-- Put site-specific property overrides in this file. -->
+     
+    <configuration>
+     <property>
+       <name>dfs.replication</name>
+       <value>2</value>
+     </property>
+     <property>
+       <name>dfs.namenode.name.dir</name>
+       <value>file:/data/hdfs/name</value>
+       <final>true</final>
+     </property>
+     <property>
+       <name>dfs.datanode.data.dir</name>
+       <value>file:/data/hdfs/data</value>
+       <final>true</final>
+     </property>
+     <property>
+       <name>dfs.namenode.secondary.http-address</name>
+       <value>bigdata111:9001</value>
+     </property>
+     <property>
+       <name>dfs.webhdfs.enabled</name>
+       <value>true</value>
+     </property>
+     <property>
+       <name>dfs.permissions</name>
+       <value>false</value>
+     </property>
+    </configuration>
 
 注意：dfs.namenode.name.dir和dfs.datanode.data.dir的value填写对应前面创建的目录
 
@@ -188,52 +188,52 @@ cd /data/hadoop-2.7.1/etc/hadoop
 ### 修改vim mapred-site.xml
 
 
-<?xml version="1.0"?>
- <!--
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
- 
-     http://www.apache.org/licenses/LICENSE-2.0
- 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License. See accompanying LICENSE file.
- -->
-<configuration>
-
-<!-- Site specific YARN configuration properties -->
- <property>
-   <name>yarn.resourcemanager.address</name>
-   <value>bigdata111:18040</value>
- </property>
- <property>
-   <name>yarn.resourcemanager.scheduler.address</name>
-   <value>bigdata111:18030</value>
- </property>
- <property>
-   <name>yarn.resourcemanager.webapp.address</name>
-   <value>bigdata111:18088</value>
- </property>
- <property>
-   <name>yarn.resourcemanager.resource-tracker.address</name>
-   <value>bigdata111:18025</value>
- </property>
- <property>
-   <name>yarn.resourcemanager.admin.address</name>
-   <value>bigdata111:18141</value>
- </property>
- <property>
-   <name>yarn.nodemanager.aux-services</name>
-   <value>mapreduce.shuffle</value>
- </property>
- <property>
-   <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
-   <value>org.apache.hadoop.mapred.ShuffleHandler</value>
- </property>
-</configuration>
+     <?xml version="1.0"?>
+      <!--
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+      
+          http://www.apache.org/licenses/LICENSE-2.0
+      
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License. See accompanying LICENSE file.
+      -->
+     <configuration>
+     
+     <!-- Site specific YARN configuration properties -->
+      <property>
+        <name>yarn.resourcemanager.address</name>
+        <value>bigdata111:18040</value>
+      </property>
+      <property>
+        <name>yarn.resourcemanager.scheduler.address</name>
+        <value>bigdata111:18030</value>
+      </property>
+      <property>
+        <name>yarn.resourcemanager.webapp.address</name>
+        <value>bigdata111:18088</value>
+      </property>
+      <property>
+        <name>yarn.resourcemanager.resource-tracker.address</name>
+        <value>bigdata111:18025</value>
+      </property>
+      <property>
+        <name>yarn.resourcemanager.admin.address</name>
+        <value>bigdata111:18141</value>
+      </property>
+      <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce.shuffle</value>
+      </property>
+      <property>
+        <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+      </property>
+     </configuration>
 
 
  
@@ -298,11 +298,11 @@ org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.protocol.Dis
 
 2,修改hosts
 
- cat /etc/hosts
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-192.168.121.111 bigdata111
-192.168.121.111 localhost
+       cat /etc/hosts
+      127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+      ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+     192.168.121.111 bigdata111
+      192.168.121.111 localhost
 
 3,重新格式化:bin/hadoop namenode -format
 
@@ -366,10 +366,15 @@ hadoop/hadoop
 ### Linux 常用命令查看文件路径
 
  hdfs dfs -ls /
- rm -rf* ##删除当前文件夹下所有内容
- rm -rf current/ ##删除current 文件夹下所有内容
+ 
+ rm -rf* 删除当前文件夹下所有内容
+ 
+ rm -rf current/ current 文件夹下所有内容
+ 
  hdfs namenode -format namenode 节点格式化
+ 
  ls -ltr 
+ 
  mv 旧的文件名 新的文件名
  
 ### hive 表中加载数据
