@@ -103,29 +103,29 @@ cd /data/hadoop-2.7.1/etc/hadoop
 ### 修改core-site.xml
 
 
-<configuration>
- <property>
-   <name>hadoop.tmp.dir</name>
-   <value>file:/data/hdfs/tmp</value>
-   <description>A base for other temporary directories.</description>
- </property>
- <property>
-   <name>io.file.buffer.size</name>
-   <value>131072</value>
- </property>
- <property>
-   <name>fs.default.name</name>
-   <value>hdfs://bigdata111:9000</value>
- </property>
- <property>
-   <name>hadoop.proxyuser.root.hosts</name>
-   <value>*</value>
- </property>
- <property>
-   <name>hadoop.proxyuser.root.groups</name>
-   <value>*</value>
- </property>
-</configuration
+    <configuration>
+     <property>
+       <name>hadoop.tmp.dir</name>
+       <value>file:/data/hdfs/tmp</value>
+       <description>A base for other temporary directories.</description>
+     </property>
+     <property>
+       <name>io.file.buffer.size</name>
+       <value>131072</value>
+     </property>
+     <property>
+       <name>fs.default.name</name>
+       <value>hdfs://bigdata111:9000</value>
+     </property>
+     <property>
+       <name>hadoop.proxyuser.root.hosts</name>
+       <value>*</value>
+     </property>
+     <property>
+       <name>hadoop.proxyuser.root.groups</name>
+       <value>*</value>
+     </property>
+    </configuration
 	
 注意：hadoop.tmp.dir的value填写对应前面创建的目录
 
