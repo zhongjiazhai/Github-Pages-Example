@@ -99,6 +99,7 @@ cd /data/hadoop-2.7.1/etc/hadoop
 
 ![site_xml](images/blog/2019-01-23/site_xml.png)
 
+
 ### 修改core-site.xml
 
 
@@ -132,6 +133,7 @@ cd /data/hadoop-2.7.1/etc/hadoop
 ## 修改 hdfs-site.xml
 
 
+         
 <?xml version="1.0" encoding="UTF-8"?>
  <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
  <!--
@@ -178,7 +180,6 @@ cd /data/hadoop-2.7.1/etc/hadoop
    <value>false</value>
  </property>
 </configuration>
-
 
 注意：dfs.namenode.name.dir和dfs.datanode.data.dir的value填写对应前面创建的目录
 
