@@ -7,6 +7,13 @@ description: 集群搭建教程
 
 
    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+   
+   
+   联系方式
+* My blog address :[zhongjiazhai](http://zhongjiazhai.github.io)
+* Email address: zhaizhongjia2010@163.com
+* Weibo: ZhongJia_Zhai
+
 
 ### 使用VMvare创建一个虚拟机，我使用的是Red had linux 7.4,并关闭全部虚拟机的防火墙
 
