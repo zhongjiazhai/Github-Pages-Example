@@ -12,7 +12,7 @@ description: 集群搭建教程
    联系方式
 * My blog address :[zhongjiazhai](http://zhongjiazhai.github.io)
 * Email address: zhaizhongjia2010@163.com
-* Weibo: ZhongJia_Zhai
+* Weibo: [ZhongJia_Zhai](https://weibo.com/u/1944978350)
 
 
 ### 使用VMvare创建一个虚拟机，我使用的是Red had linux 7.4,并关闭全部虚拟机的防火墙
