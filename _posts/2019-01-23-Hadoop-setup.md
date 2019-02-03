@@ -46,10 +46,10 @@ description: 集群搭建教程
  修改完截图如下：
  
  ![ifcfg-enp0s3](images/blog/2019-01-23/ifcfg-enp0s3.jpg)
- 
- ## Hadoop的安装与配置
- 
- ### 创建文件目录
+
+## Hadoop的安装与配置
+
+### 创建文件目录
  
 为了便于管理，给redHat1的hdfs的NameNode、DataNode及临时文件，在用户目录下创建目录：
 
@@ -81,7 +81,7 @@ vim /etc/profile
 
 在/etc/profile添加如下内容
 
-[hadoop_home](images/blog/2019-01-23/hadoop_home.png)
+![hadoop_home](images/blog/2019-01-23/hadoop_home.png)
 
 立刻让hadoop环境变量生效，执行如下命令：
 
