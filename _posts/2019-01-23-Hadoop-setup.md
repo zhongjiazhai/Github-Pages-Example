@@ -340,6 +340,7 @@ ${SPARK_HOME}/sbin/start-thriftserver.sh --master yarn    ## 使用spark 用户�
 
 ## 停止
 
+
 ${SPARK_HOME}/sbin/stop-thriftserver.sh
 ${SPARK_HOME}/sbin/stop-all.sh
 ${HADOOP_HOME}/sbin/mr-jobhistory-daemon.sh stop historyserver
