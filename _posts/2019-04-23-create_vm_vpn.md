@@ -29,10 +29,14 @@ description: 全国科学上网配置
  第二步：选择创建节点所在的区域和地区，这个根据需求吧。
  第三步：机器类型，就是选择你需要的机器配置，当然做科学上网的vps节点的服务器不需要太高的配置，那么我们就选择最低的一个配置，当然价格也是最便宜的。
  第四步：启动磁盘，默认的也是第一个，如果不是默认的第一个点击打开选中第一个，如图：
+ 
  ![vm3](images/blog/2019-04-23/vm3.png)
+ 
  第五步：图中标注的第四步，也就是防火墙，允许HTTP流量和HTTPS流量，全部打勾。选择创建
  创建完成后可以看到如下内容：
+ 
  ![vm4](images/blog/2019-04-23/vm4.png)
+ 
  说明你已经创建成功。
  
  ## 创建防火墙规则
@@ -44,6 +48,7 @@ description: 全国科学上网配置
 * 点击创建防火墙规则
 
 ![vm6](images/blog/2019-04-23/vm6.png)
+
 名称：可以自己定义 说明：也是自己定义，可以选择填写
 日志：默认是关闭状态，默认维持不变
 网络：默认是default
@@ -55,22 +60,24 @@ description: 全国科学上网配置
 协议和端口：全部允许
 点击创建；
 以上是配置入站的防火墙规则，同理可以去配置出站的防火墙规则；
+
 ![vm7](images/blog/2019-04-23/vm7.png)
 
-## 开始创建节点
+## 创建VM节点
 
 * 按照如下截图操作：
 
 ![vm9](images/blog/2019-04-23/vm9.png)
+
 * 来到如下的界面环境：
 
 ![vm8](images/blog/2019-04-23/vm8.png)
 
 * 输入代码：
 
-         sudo -i   # 切换用户权限
-         wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
-         ./shadowsocksR.sh # 执行sh文件
+      sudo -i   # 切换用户权限
+      wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+      ./shadowsocksR.sh # 执行sh文件
  
 ![vm10](images/blog/2019-04-23/vm10.png)
 
