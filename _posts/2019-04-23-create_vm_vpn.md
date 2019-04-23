@@ -8,14 +8,14 @@ description: 全国科学上网配置
 
    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275018137'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275018137%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
  
- ## 谷歌云的注册
+ ##  谷歌云的注册
  
  谷歌云注册地址：https://console.cloud.google.com
  
  * 在注册谷歌云的过程中按照要求一步一步完成，没有太多的问题。
  * 完成谷歌云的注册后，第一次注册会免费得到300美金及一年的使用权限。
  
- ## VM实例的创建
+ ##  VM实例的创建
  
  * 按照图片实例，点击Compute Engine 中的VM
  
@@ -39,7 +39,7 @@ description: 全国科学上网配置
  
  说明你已经创建成功。
  
- ## 创建防火墙规则
+ ##  创建防火墙规则
  
 * 按照图片标记，打开
 
